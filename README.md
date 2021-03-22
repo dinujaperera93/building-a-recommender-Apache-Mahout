@@ -62,6 +62,9 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 > nano command to exit
 
 > ctrl+x
+
+![nano](https://user-images.githubusercontent.com/80620663/112002059-87116300-8b45-11eb-939a-03b9c63d4b48.PNG)
+
 5. Start the web service.
 > `twistd -noy server.py &`
 6. Test the web service with user id 28”:
