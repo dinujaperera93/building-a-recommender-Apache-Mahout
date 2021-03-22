@@ -11,7 +11,5 @@ Recommenders are the systems that take behavior-based inputs, and identify which
 
 Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 
-1.Start up an EMR cluster with following settings.
-
-2.
-3.
+1. Start up an EMR cluster with following settings.
+2. 
