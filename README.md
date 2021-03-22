@@ -14,7 +14,7 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 1. Start up an EMR cluster with the following settings.
 ![Setting_Cluster](https://user-images.githubusercontent.com/80620663/111989951-6db5ea00-8b38-11eb-983f-081bfd466df4.PNG)
 2. Connecting to cluster via SSH.
-
+![SSH](https://user-images.githubusercontent.com/80620663/112001478-0488a380-8b45-11eb-82f2-9359c063fafa.PNG)
 3. Get the MovieLens data
 > `wget http://files.grouplens.org/datasets/movielens/ml-1m.zip`  
 > `unzip ml-1m.zip`
