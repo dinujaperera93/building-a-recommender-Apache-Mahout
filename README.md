@@ -8,7 +8,10 @@ source: [AWS Big Data](https://aws.amazon.com/blogs/big-data/building-a-recommen
 ## Part 1 - Building a Recommender
 
 Recommenders are the systems that take behavior-based inputs, and identify which items users are likely to prefer. 
+
 Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 
 1.Start up an EMR cluster with following settings.
+
 2.
+3.
