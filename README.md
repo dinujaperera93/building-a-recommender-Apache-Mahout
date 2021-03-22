@@ -50,11 +50,11 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 3. Build a web service that pulls the recommendations into Redis and responds to queries.  
 > `nano server.py` 
 > 
-nano command to save
+   nano command to save
 
 > 'ctrl+o' 
 >
-nano command to exit
+   nano command to exit
 
 > 'ctrl+x'
 4. Start the web service.
