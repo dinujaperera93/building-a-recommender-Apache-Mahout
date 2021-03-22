@@ -59,7 +59,7 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 > ctrl+x
 4. Start the web service.
 > `twistd -noy server.py &`
-5. Test the web service with user id “5”:
-> `curl localhost:4200/5`  
+5. Test the web service with user id 28”:
+> `curl localhost:4200/28`  
 > 
 > ![recommender-service-api](./screens/recommender-service-api.png)
