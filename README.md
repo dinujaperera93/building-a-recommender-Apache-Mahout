@@ -38,16 +38,19 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 ## Part 2 - Building a web Service
 
 1. Get Twisted, and Klein and Redis modules for Python.
-> `pip3 install --user twisted`  
-> `pip3 install --user klein`  
-> `pip3 install --user redis`  
-2. Install Redis and start up the server.
+> `sudo yum install python-pip`  
+> `sudo pip install twisted`  
+> `sudo pip install klein`
+> `sudo pip install redis`
+2. Checking the downloaded version
+> `twistd -version`  
+3. Install Redis and start up the server.
 > `wget http://download.redis.io/releases/redis-2.8.7.tar.gz`  
 > `tar xzf redis-2.8.7.tar.gz`  
 > `cd redis-2.8.7`  
 > `make`  
 > `./src/redis-server &`  
-3. Build a web service that pulls the recommendations into Redis and responds to queries.  
+4. Build a web service that pulls the recommendations into Redis and responds to queries.  
 > `nano server.py` 
 > 
 > nano command to save
@@ -57,9 +60,9 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 > nano command to exit
 
 > ctrl+x
-4. Start the web service.
+5. Start the web service.
 > `twistd -noy server.py &`
-5. Test the web service with user id 28”:
+6. Test the web service with user id 28”:
 > `curl localhost:4200/28`  
 > 
 > ![recommender-service-api](./screens/recommender-service-api.png)
