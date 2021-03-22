@@ -41,7 +41,6 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 > `sudo yum install python-pip`  
 > `sudo pip install twisted`  
 > `sudo pip install klein`
-> 
 > `sudo pip install redis`
 2. Checking the downloaded version
 > `twistd -version`  
