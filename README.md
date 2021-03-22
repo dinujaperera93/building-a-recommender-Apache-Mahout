@@ -50,13 +50,13 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 3. Build a web service that pulls the recommendations into Redis and responds to queries.  
 > `nano server.py` 
 > 
-nano commands to save
+nano command to save
 
-> ctrl+o 
+> 'ctrl+o' 
 >
-nano commands to exit
+nano command to exit
 
-> ctrl+x
+> 'ctrl+x'
 4. Start the web service.
 > `twistd -noy server.py &`
 5. Test the web service with user id “5”:
