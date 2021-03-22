@@ -42,8 +42,8 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 1. Get Twisted, and Klein and Redis modules for Python.
 > `sudo yum install python-pip`  
 > `sudo pip install twisted`  
-> `sudo pip install klein`
-  > `sudo pip install redis`
+> `sudo pip install klein`  
+> `sudo pip install redis`
 2. Checking the downloaded version
 > `twistd -version`  
 3. Install Redis and start up the server.
