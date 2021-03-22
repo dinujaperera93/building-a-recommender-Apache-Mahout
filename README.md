@@ -16,6 +16,7 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 2. Connecting to cluster via SSH.
 
 ![SSH](https://user-images.githubusercontent.com/80620663/112001478-0488a380-8b45-11eb-82f2-9359c063fafa.PNG)
+
 3. Get the MovieLens data
 > `wget http://files.grouplens.org/datasets/movielens/ml-1m.zip`  
 > `unzip ml-1m.zip`
@@ -34,7 +35,7 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 > `hdfs dfs -ls /user/hadoop/recommendations`  
 > `hdfs dfs -cat /user/hadoop/recommendations/part-r-00000 | head`  
 > 
-> ![map-reduce-job-output](./screens/map-reduce-job-output.png)
+![Output](https://user-images.githubusercontent.com/80620663/112001871-5af5e200-8b45-11eb-9f32-fd4c75c77ff2.PNG)
 
 ## Part 2 - Building a web Service
 
