@@ -18,12 +18,10 @@ Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 3. Get the MovieLens data
 > `wget http://files.grouplens.org/datasets/movielens/ml-1m.zip`  
 > `unzip ml-1m.zip`
-> 
-   Convert ratings.dat, trade “::” for “,”, and take only the first three columns:
+> Convert ratings.dat, trade “::” for “,”, and take only the first three columns:
 
 > `cat ml-1m/ratings.dat | sed 's/::/,/g' | cut -f1-3 -d, > ratings.csv`
-> 
-   Put ratings file into HDFS:
+> Put ratings file into HDFS:
 
 > `hdfs dfs -put ratings.csv /user/hadoop/ratings.csv`
 > 
