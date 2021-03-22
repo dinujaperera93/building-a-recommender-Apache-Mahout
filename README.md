@@ -12,7 +12,7 @@ Recommenders are the systems that take behavior-based inputs, and identify which
 Data set: [MovieLens data set](http://grouplens.org/datasets/movielens/)
 
 1. Start up an EMR cluster with the following settings.
-![Setting_Cluster](./screens/Setting_Cluster.png)
+![Setting_Cluster](https://user-images.githubusercontent.com/80620663/111989951-6db5ea00-8b38-11eb-983f-081bfd466df4.PNG)
 2. Connecting to cluster via SSH.
 
 3. Get the MovieLens data
